@@ -1,0 +1,107 @@
+/*h1.groove {
+    border-style: groove;
+    border-color: rgba(20,0,40,0.5);
+    padding: 12px;
+}*/
+h1 {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 64px;
+    margin: 32px auto;
+    color:rgb(20, 0, 40)  
+}
+h2 {
+    border: 4px groove rgba(25, 0, 40, 0.2);
+    padding: 8px;
+    height: 25px;
+    width: 400px;
+    background-color: rgba(209, 216, 221, 0.178);
+    border-radius: 8px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin: 8px auto;
+    color:rgb(10, 0, 20)
+}
+p {
+    border: 4px groove rgba(25, 0, 40, 0.2);
+    padding: 12px;
+    height: 80px;
+    width: 500px;
+    border-radius: 12px;
+    background-color: rgba(166, 191, 211, 0.2);
+    font-family: 'Comic Neue', cursive;
+    font-size: 32px;
+    text-align: center;
+    margin: 12px auto;
+    color:rgb(10, 0, 20)
+
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/*button {
+    display: inline-block;
+    font-size: 48px;
+    font-family: 'Comic Neue'; 
+    background-color: rgba(203, 204, 223, 0.349);
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: 4px solid rgba(0, 0, 0, 0.2);
+    border-radius: 32px;
+    width: 550px;
+}
+button:hover {
+    background-color: rgba(81, 159, 255, 0.575);
+}*/
+.button {
+    display: inline-block;
+    font-family: 'Comic Neue', cursive;
+    border-radius: 24px;
+    background-color: rgba(25, 133, 221, 0.5);
+    border: none;
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 36px;
+    padding: 2px;
+    width: 450px;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: 4px groove rgba(25, 0, 40, 0.281);
+  }
+  
+  .button v {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button v:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover v {
+    padding-right: 45px;
+  }
+  
+  .button:hover v:after {
+    opacity: 1;
+    right: 0;
+  }
+body {
+    background-color: rgb(255,255,255);
+}
